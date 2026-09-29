@@ -1,0 +1,24 @@
+{
+  "name": "lab-calculadora",
+  "version": "1.0.0",
+  "description": "Integrante de Equipo:",
+  "main": "miniCajero.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraGarciaAngel/lab-calculadora.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LauraGarciaAngel/lab-calculadora/issues"
+  },
+  "homepage": "https://github.com/LauraGarciaAngel/lab-calculadora#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
