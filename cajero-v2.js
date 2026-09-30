@@ -1,5 +1,7 @@
 const prompt = require('prompt-sync')();
 let activo = true;
+let mensaje1 = "Ingresa el primer número: ";
+let mensaje2 = "Ingresa el segundo número: ";
 
 function pedirNumero(mensaje) {
    let numero = Number(prompt(mensaje));
@@ -29,8 +31,6 @@ function mostrarResultado(resultado) {
     console.log(`El resultado es: ${resultado}`);
 }
 
-let mensaje1 = "Ingresa el primer número: ";
-let mensaje2 = "Ingresa el segundo número: ";
 function atenderOperacion(){
     numero1 = pedirNumero(mensaje1);
     operacion = prompt("Ingresa la operación (+, -, *, /): ");
